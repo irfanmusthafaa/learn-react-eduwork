@@ -6,6 +6,8 @@ import {
 } from 'react-router-dom'
 import Login from './pages/auth/Login'
 import Counter from './pages/testing/Counter';
+import { Validation } from './materi/Validation';
+import TaskValidation from './task/TaskValidation'
 
 function App() {
   return (
@@ -28,6 +30,18 @@ function App() {
         exact
         path='/counter'
         component={Counter}
+        />
+
+        <Route
+        exact
+        path='/validation'
+        component={Validation}
+        />
+
+        <Route
+        exact
+        path='/taskValidation'
+        component={TaskValidation}
         />
       </Switch>
       </div>
