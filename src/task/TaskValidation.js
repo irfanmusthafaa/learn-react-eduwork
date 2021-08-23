@@ -95,7 +95,7 @@ class TaskValidation extends Component {
         e.preventDefault()
 
         let values = this.state
-        console.log(values)
+        //console.log(values)
 
         let errors = {
             fullname: "",
